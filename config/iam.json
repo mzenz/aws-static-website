@@ -4,6 +4,7 @@
     {
       "Effect": "Allow",
       "Action": [
+        "iam:*",
         "acm:*",
         "cloudfront:*",
         "route53:*",
