@@ -1,0 +1,11 @@
+# Envinornmental
+*.env
+
+# IDE - VSCode
+.vscode
+
+# Terraform
+.terraform
+*.tfstate*
+# secret configuration variables
+config/*.secret.tfvars
