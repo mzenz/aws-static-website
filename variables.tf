@@ -11,11 +11,3 @@ variable "profile" {}
 variable "stage" {}
 
 variable "region" {}
-
-variable "github_org" {
-  description = "GitHub organization name where repositories are hosted"
-}
-
-variable "aws_openid_connect_url" {
-  default = "https://token.actions.githubusercontent.com"
-}
